@@ -77,5 +77,15 @@
             >;
         };
 
+        layer_MacOS {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &kp LEFT_COMMAND  &trans                  &kp RIGHT_CONTROL  &kp RIGHT_COMMAND  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                                      &trans                             &trans                             &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans            &trans  &trans                             &trans             &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
     };
 };
